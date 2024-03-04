@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Test
-{
+{    
     public partial class Form1 : Form
     {
+        int Test;
         public Form1()
         {
             InitializeComponent();
+            Test=0;
         }
     }
 }
